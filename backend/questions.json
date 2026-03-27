@@ -1,0 +1,11 @@
+[
+  {
+    "id": 1,
+    "topic": "Algebra",
+    "subtopic": "Linear Equations",
+    "question": "Solve 2x + 3 = 7",
+    "answer": "2",
+    "explanation": "Subtract 3 → 2x=4 → Divide 2 → x=2",
+    "level": 1
+  }
+]
