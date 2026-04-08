@@ -55,3 +55,12 @@ def explain_question(question: str):
         messages=[{"role": "user", "content": prompt}]
     )
     return {"explanation": response}
+from fastapi.middleware.cors import CORSMiddleware
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)

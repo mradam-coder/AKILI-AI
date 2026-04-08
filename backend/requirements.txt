@@ -3,3 +3,6 @@ uvicorn
 sqlalchemy
 pydantic
 ollama
+git add .
+git commit -m "add new folder"
+git push
